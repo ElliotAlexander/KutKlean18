@@ -1,0 +1,17 @@
+name: KutKlean18
+version: ${project.version}
+main: me.sitrismc.kutklean18.KutKlean
+
+description: KutKlean for 1 point 8!
+author: [Sitris]
+
+commands:
+  kutklean:
+    description: Allows to toggle KutKlean
+    permission: kutklean.basic
+    permission-message: §cYou do not have the permission for this command.
+
+permissions:
+  kutklean.basic:
+    description: Allows to use KutKlean Command
+    default: op
